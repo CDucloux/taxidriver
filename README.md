@@ -28,20 +28,22 @@ Pour cela, nous lui avons construit sur mesure une application en lignes de comm
 
 - Ouvrez un terminal au niveau du dossier racine.
 
-<img src="./imgs/launch_venv.png">
+<img src="./imgs/launch_venv.png" width=60% >
 
 - Vous vous retrouverez alors face à cette fenêtre. L'indicateur en bas à gauche `(source-py3.10)` indique que vous êtes bien dans l'environnement virtuel.
 
-<img src="./imgs/launch_venv_2.png">
+<img src="./imgs/launch_venv_2.png" width=60% >
 
 - Il faudra ensuite changer de répertoire : 
 
-<img src="./imgs/launch_app_1.png">
+<img src="./imgs/launch_app_1.png" width=60% >
 
 - Enfin, on peut lancer l'application et obtenir des informations sur les commandes disponiblles.
 
-<img src="./imgs/commands.PNG">
+<img src="./imgs/commands.PNG" width=60% >
 
+
+### Liste des commandes
 
 ```python
 python -m app.py emplacements
@@ -55,7 +57,7 @@ python -m app.py routes
 
 - Affiche la liste des routes reliant des emplacements de la ville ainsi que leur durée de parcours, sous forme de tableau.
 
-<img src="./imgs/routes_nograph.PNG">
+<img src="./imgs/routes_nograph.PNG" width=40% >
 
 
 ```python
@@ -66,7 +68,7 @@ python -m app.py trajet départ arrivée
 
 *Exemple avec l'emplacement **9** et  **12*** :
 
-<img src="./imgs/trajet.PNG">
+<img src="./imgs/trajet.PNG" width=60% >
 
 ```python
 python -m app.py bouchons départ arrivee durée
@@ -75,7 +77,9 @@ python -m app.py bouchons départ arrivee durée
 - Ajoute une durée de bouchon spécifiée par l'utilisateur sur une route. L'utilisateur peut ensuite recalculer un trajet. *(t/f)*
 - Il existe une option `--fluidification` pour fluidifier la route plutôt que de faire des bouchons.
 
-<img src="./imgs/bouchons_nograph.PNG">
+*Exemple avec l'emplacement de départ **1**, d'arrivée **2*** et de **7 minutes de bouchons** :
+
+<img src="./imgs/bouchons_nograph.PNG" width=40% >
 
 ```python
 python -m app.py emplacement_1 emplacement_2 emplacement_n durée
@@ -83,7 +87,9 @@ python -m app.py emplacement_1 emplacement_2 emplacement_n durée
 
 - Ajoute des travaux à un ou plusieurs emplacements avec une durée spécifiée par l'utilisateur. Il peut ensuite recalculer un trajet 
 
-<img src="./imgs/travaux_nograph.PNG">
+*Exemple avec l'emplacement **1,2,5,6** et  **2 minutes de travaux*** :
+
+<img src="./imgs/travaux_nograph.PNG" width=40% >
 <img src="./imgs/travaux_graph.png">
 
 ***
