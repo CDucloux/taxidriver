@@ -46,13 +46,13 @@ Pour cela, nous lui avons construit sur mesure une application en lignes de comm
 ### Liste des commandes
 
 ```python
-python -m app.py emplacements
+python -m app emplacements
 ```
 
 - Affiche la liste des emplacements disponibles de la ville.
 
 ```python
-python -m app.py routes
+python -m app routes
 ```
 
 - Affiche la liste des routes reliant des emplacements de la ville ainsi que leur durée de parcours, sous forme de tableau.
@@ -61,7 +61,7 @@ python -m app.py routes
 
 
 ```python
-python -m app.py trajet départ arrivée
+python -m app trajet départ arrivée
 ```
 
 - Calcule l'itinéraire et le temps de trajet optimal entre les points de départ et d'arrivée spécifiés.
@@ -71,7 +71,7 @@ python -m app.py trajet départ arrivée
 <img src="./imgs/trajet.PNG" width=60%>
 
 ```python
-python -m app.py bouchons départ arrivee durée
+python -m app bouchons départ arrivee durée
 ```
 
 - Ajoute une durée de bouchon spécifiée par l'utilisateur sur une route. L'utilisateur peut ensuite recalculer un trajet. *(t/f)*
@@ -82,7 +82,7 @@ python -m app.py bouchons départ arrivee durée
 <img src="./imgs/bouchons_nograph.PNG" width=40%>
 
 ```python
-python -m app.py emplacement_1 emplacement_2 emplacement_n durée
+python -m app emplacement_1 emplacement_2 emplacement_n durée
 ```
 
 - Ajoute des travaux à un ou plusieurs emplacements avec une durée spécifiée par l'utilisateur. Il peut ensuite recalculer un trajet 
@@ -101,13 +101,13 @@ python -m app.py emplacement_1 emplacement_2 emplacement_n durée
 Il peut aussi être assez pratique de visualiser sous forme de graphe, nous l'avons intégré par défaut dans la commande `travaux` mais l'option `--graphe` existe aussi dans les commandes `routes` et `trajet`
 
 ```python
-python -m app.py routes --graphe
+python -m app routes --graphe
 ```
 
 <img src="./imgs/routes_graph.png" width=60%>
 
 ```python
-python -m app.py trajet départ arrivée --graphe
+python -m app trajet départ arrivée --graphe
 ```
 
 <img src="./imgs/trajet_graph.png" width=60%>
