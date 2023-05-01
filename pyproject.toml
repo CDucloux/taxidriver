@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "source"
+version = "0.1.0"
+description = ""
+authors = ["CDucloux <corentin_ducloux@outlook.fr>"]
+readme = "README.md"
+
+packages = [
+    { include = "source" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "^0.7.0"
+rich = "^13.3.5"
+networkx = "^3.1"
+matplotlib = "^3.7.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+black = "^23.3.0"
+ruff = "^0.0.263"
+mypy = "^1.2.0"
+pytest-cov = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
