@@ -40,7 +40,7 @@ Pour cela, nous lui avons construit sur mesure une application en lignes de comm
 
 - Enfin, on peut lancer l'application et obtenir des informations sur les commandes disponiblles.
 
-<img src="./imgs/commands.png">
+<img src="./imgs/commands.PNG">
 
 
 ```python
@@ -55,7 +55,7 @@ python -m app.py routes
 
 - Affiche la liste des routes reliant des emplacements de la ville ainsi que leur durée de parcours, sous forme de tableau.
 
-<img src="./imgs/routes_nograph.png">
+<img src="./imgs/routes_nograph.PNG">
 
 
 ```python
@@ -66,7 +66,7 @@ python -m app.py trajet départ arrivée
 
 *Exemple avec l'emplacement **9** et  **12*** :
 
-<img src="./imgs/trajet.png">
+<img src="./imgs/trajet.PNG">
 
 ```python
 python -m app.py bouchons départ arrivee durée
@@ -75,7 +75,7 @@ python -m app.py bouchons départ arrivee durée
 - Ajoute une durée de bouchon spécifiée par l'utilisateur sur une route. L'utilisateur peut ensuite recalculer un trajet. *(t/f)*
 - Il existe une option `--fluidification` pour fluidifier la route plutôt que de faire des bouchons.
 
-<img src="./imgs/bouchons_nograph.png">
+<img src="./imgs/bouchons_nograph.PNG">
 
 ```python
 python -m app.py emplacement_1 emplacement_2 emplacement_n durée
@@ -83,7 +83,7 @@ python -m app.py emplacement_1 emplacement_2 emplacement_n durée
 
 - Ajoute des travaux à un ou plusieurs emplacements avec une durée spécifiée par l'utilisateur. Il peut ensuite recalculer un trajet 
 
-<img src="./imgs/travaux_nograph.png">
+<img src="./imgs/travaux_nograph.PNG">
 <img src="./imgs/travaux_graph.png">
 
 ***
