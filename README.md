@@ -89,8 +89,10 @@ python -m app.py emplacement_1 emplacement_2 emplacement_n durée
 
 *Exemple avec l'emplacement **1,2,5,6** et  **2 minutes de travaux*** :
 
-<img src="./imgs/travaux_nograph.PNG" width=40%>
-<img src="./imgs/travaux_graph.png" width=60%>
+<p float="middle">
+ <img src="./imgs/travaux_nograph.PNG" width=40%>
+  <img src="./imgs/travaux_graph.png" width=50%>
+</p>
 
 ***
 
