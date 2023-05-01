@@ -6,7 +6,7 @@
 
 ## Présentation
 
-Le module `taxidriver` permet de modéliser le problème suivant [(Lien vers le sujet)](https://github.com/CDucloux/Taxi-company/blob/main/Sujet.md) en termes de *graphe pondéré*. 
+Le module `taxidriver` permet de modéliser le problème suivant [(Lien vers le sujet)](https://github.com/CDucloux/taxidriver/blob/master/Sujet.md) en termes de *graphe pondéré*.
 
 > **VOCABULAIRE** : un graphe est dit *pondéré* lorsque pour chaque arête il existe un **poids** (durée) associée. 
 
