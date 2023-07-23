@@ -1,7 +1,5 @@
 # Taxi driver :taxi:
 
-<img src="http://www.parisfaitsoncinema.com/cache/media/de-niro-590/cr%2C640%2C450-7f7085.jpg" width=40% height=40% align="right">
-
 [![codecov](https://codecov.io/gh/Textualize/rich/branch/master/graph/badge.svg)](https://codecov.io/gh/Textualize/rich)
 
 ## Présentation
